@@ -2,47 +2,6 @@ PROGRAM REAFFOX_AlOH !**********************************************************
 !
 ! REActive Force-Field simulation code for OXidation
 !
-!*** Developer
-! Developed by Byoungseon JEON
-! School of Engineering and Applied Sciences
-! Harvard University
-!
-!*** Purpose
-! Simulation code for classical molecular dynamics
-! particularly for metal alloy oxidation
-! 
-!*** History
-!
-! August 2010
-! Modification from SIMOX code
-! ReaxFF potential [1-3]
-! Electronegativity Equalization Method for variable charge
-!
-! October 2010
-! Basic implementation completed
-! New memory structure for memory save
-! Cell sorting implementation
-!
-! February 2011
-! Calculation of MSD
-!
-! March 2, 2011
-! OpenMP parallelization on force and eem
-!
-! April 22, 2011
-! Implementation of E-field
-!
-! Oct 27, 2011
-! Implementation of H-O-Al potential
-!
-![1] van Duin et al, The Journal of Physical Chemistry A 105, 9396 (2001)
-![2] van Duin et al, The Journal of Physical Chemistry A 107, 3803 (2003)
-![3] Russo et al, International Journal of Hydrogen Energy 36, 5828 (2011)
-!
-!*** Note
-! The code is using the feature of F95/2003. Some of F90 features may not work.
-! Required external library
-! 
 ! ReaxFF library has been given by Dr. Michael Russo at Penn. State Univ.
 !
 USE DATAFMT
