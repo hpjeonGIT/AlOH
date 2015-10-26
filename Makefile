@@ -1,10 +1,6 @@
 #
 # Makefile for REAFFOX-AlOH version
-# 
-# Byoungseon Jeon
-# School of Engineering and Applied Sciences
-# Harvard University
-# May 2011
+
 #
 .SUFFIXES: .o .f90
 #
